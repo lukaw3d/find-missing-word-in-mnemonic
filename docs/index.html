@@ -22,21 +22,25 @@
       <li>reconnect</li>
     </ol>
 
-    <form id="form">
+    <form id="form" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
       <label>
         Enter mnemonic with "?" in place of a missing word:
         <br>
-        <textarea id="partialMnemonic" name="partialMnemonic" rows="3" cols="150">test test test test ? test test test test test test test test test test test test test test test test test test test</textarea>
+        <textarea id="partialMnemonic" name="partialMnemonic" rows="3" cols="150" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">test test test test ? test test test test test test test test test test test test test test test test test test test</textarea>
       </label>
       <br>
       <input type="submit">
     </form>
     <pre id="out">--</pre>
 
-    (Uses words from <a href="https://raw.githubusercontent.com/bitcoinjs/bip39/master/src/wordlists/english.json">bip39 dictionary</a>)
+    <p>
+      (Uses words from <a href="https://raw.githubusercontent.com/bitcoinjs/bip39/master/src/wordlists/english.json">bip39 dictionary</a>)
+    </p>
+    <p>
+      <a href="https://github.com/lukaw3d/find-missing-word-in-mnemonic">Source code</a>
+    </p>
 
 
-
-    <script src="/find-missing-word-in-mnemonic/index.5bb534e9.js" defer=""></script>
+    <script src="/find-missing-word-in-mnemonic/index.a309ee62.js" defer=""></script>
   </body>
 </html>
